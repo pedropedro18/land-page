@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inglês A1 em 30 dias</title>
+<meta name="description" content="Curso de inglês A1 em 30 dias, com aulas diárias e apoio por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container barra">
+    <a class="logo" href="#inicio">Inglês<span>30</span></a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="menu" aria-label="Principal">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#beneficios">Benefícios</a></li>
+        <li><a href="#precos">Preços</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div>
+        <h1>Em 30 dias, já falas inglês.</h1>
+        <p>Curso A1 para iniciantes: 15 minutos de aula por dia e um professor a responder às tuas dúvidas no WhatsApp.</p>
+        <a class="btn" href="#precos">Quero começar</a>
+        <small>Aulas online. Estuda ao teu ritmo, no telemóvel.</small>
+      </div>
+      <div>
+        <div class="dias" id="dias" aria-hidden="true"></div>
+        <p class="legenda">Um quadrado por dia. No dia 30, já falas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section class="beneficios" id="beneficios">
+    <div class="container">
+      <h2>Aprende um pouco todos os dias</h2>
+      <div class="lista-ben">
+        <article>
+          <h3>Aulas curtas</h3>
+          <p>Vídeos e exercícios de 15 minutos. Cabem na pausa do trabalho ou no caminho para casa.</p>
+        </article>
+        <article>
+          <h3>Fala desde o dia 1</h3>
+          <p>Praticas frases reais: cumprimentar, pedir, comprar e apresentar-te.</p>
+        </article>
+        <article>
+          <h3>Dúvidas no WhatsApp</h3>
+          <p>Enviaste uma pergunta? Recebes resposta do professor no mesmo dia.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREÇOS -->
+  <section id="precos">
+    <div class="container">
+      <h2>Escolhe o teu plano</h2>
+      <div class="oferta">Oferta termina em <span id="contagem">--</span></div>
+      <div class="planos">
+        <div class="plano">
+          <h3>Básico</h3>
+          <div class="preco">15.000 Kz</div>
+          <ul>
+            <li>30 aulas em vídeo</li>
+            <li>Exercícios em PDF</li>
+            <li>Acesso por 3 meses</li>
+          </ul>
+          <button class="btn wa" data-plano="Básico">Quero o plano Básico</button>
+        </div>
+        <div class="plano destaque">
+          <h3>Completo</h3>
+          <div class="preco">25.000 Kz</div>
+          <ul>
+            <li>Tudo do plano Básico</li>
+            <li>Dúvidas no WhatsApp</li>
+            <li>Correção de exercícios</li>
+            <li>Certificado final</li>
+          </ul>
+          <button class="btn" data-plano="Completo">Quero o plano Completo</button>
+        </div>
+        <div class="plano">
+          <h3>VIP</h3>
+          <div class="preco">45.000 Kz</div>
+          <ul>
+            <li>Tudo do plano Completo</li>
+            <li>4 aulas ao vivo</li>
+            <li>Acesso para sempre</li>
+          </ul>
+          <button class="btn wa" data-plano="VIP">Quero o plano VIP</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="depoimentos">
+    <div class="container">
+      <h2>Quem já estudou</h2>
+      <div class="dep-grid">
+        <blockquote>
+          “Nunca tinha estudado inglês. No fim do mês já conseguia apresentar-me numa entrevista.”
+          <footer>Ana, Luanda</footer>
+        </blockquote>
+        <blockquote>
+          “As aulas são curtas e as respostas no WhatsApp ajudam muito. Recomendo.”
+          <footer>Carlos, Benguela</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <h2>Perguntas frequentes</h2>
+      <details>
+        <summary>Preciso de saber inglês antes?</summary>
+        <p>Não. O curso começa do zero, no nível A1.</p>
+      </details>
+      <details>
+        <summary>Quanto tempo devo estudar por dia?</summary>
+        <p>15 minutos de aula, mais 10 minutos de exercícios.</p>
+      </details>
+      <details>
+        <summary>Como pago?</summary>
+        <p>Clicas no plano, falas connosco no WhatsApp e combinamos o pagamento.</p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape" id="contacto">
+  <div class="container">
+    <div>
+      <strong>Inglês30</strong><br>
+      Luanda, Angola
+    </div>
+    <div>
+      WhatsApp: <a href="#" id="contacto-wa">+244 923 030 010</a>
+    </div>
+  </div>
+</footer>
+
+<script src="Script.js"></script>
+</body>
+</html>
